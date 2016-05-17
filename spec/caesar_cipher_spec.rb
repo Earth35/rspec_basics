@@ -1,5 +1,4 @@
-require "rspec"
-require_relative "../lib/caesar_cipher.rb"
+require "caesar_cipher"
 
 describe "caesar_cipher" do
   it "shifts by a given value" do
